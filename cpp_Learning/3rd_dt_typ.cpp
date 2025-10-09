@@ -26,13 +26,13 @@ return 0;
 }
 */
 //FLOAT(less precise but memory efficient)
-/*int main(){
-    float a = 2.5;
-    float b = 3.1;
+int main(){
+    float a = 2.5f;
+    float b = 3.1f;
     cout<<a<<'\n';
     cout<<b<<'\n';
 }
-    */
+    
 //Single Character 
 /*int main(){
     int grade = 'A';
@@ -57,6 +57,7 @@ return 0;
 }
 */
 //BOOLEAN(true or false)
+/*
 int main(){
     bool student = false;
     bool power = true;
@@ -64,4 +65,4 @@ int main(){
     cout<<student<<'\n';
     cout<<power<<'\n';
     cout<<forSale<<'\n';
-}
+}*/

@@ -9,7 +9,7 @@
     int age;
     cout<<"What is your full name? "<<'\n';
     // getline (cin,name);
-    getline (cin>>ws,name);
+    getline (cin>>ws,name);  
     cout<<"What is your age? ";
     cin>>age;
     cout<<"Hello "<<name<<'\n';

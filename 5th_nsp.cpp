@@ -13,5 +13,7 @@ namespace second
 } // namespace second
 int main(){
 
+    cout<< first :: x << '\n';
+    cout<< second :: x << '\n';
     return 0;
 }

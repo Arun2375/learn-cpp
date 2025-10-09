@@ -20,7 +20,7 @@ using namespace std;
     */
 
 // TYPES OF VARIABLES
-/*
+
     int num = 100;            //Global Variable
 int main(){
     int age = 20;             //Local variable 
@@ -31,7 +31,7 @@ int main(){
     cout<<"Count: "<<count<<'\n';
     return 0;    
 }
-*/
+
 
     
  

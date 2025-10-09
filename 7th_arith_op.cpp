@@ -6,13 +6,13 @@ using namespace std;
     // int students = 20;
     /*students = students+1;
     students += 1;
-    students ++;
+    students ++;               //Unary Operator
     cout<<students<<'\n';
     */
    //Subtraction
     /*students = students -1;
     students -= 1;
-    students --;
+    students --;               //Unary Operator
     cout<<students<<'\n';
     */
    //Multiplication
