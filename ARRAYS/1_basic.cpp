@@ -52,7 +52,7 @@ int main(){
 // The sizeof() operator helps to find the memory usage of an array.
 // It can also be used to calculate the total number of elements using:
 // sizeof(array) / sizeof(array[0])
-
+/*
 int main(){
    // char arr[] = {'a', 'b', 'c', 'd', 'e'};
     string arr[] = {"Arun", "Aditya", "Danishwer", "Raju"};
@@ -67,8 +67,48 @@ int main(){
     cout<<"Length of an arr "<<n<<endl;
     return 0;
 }
+*/
 
 // ARRAYS AND POINTERS
+//The array name can be treated as a constant pointer
+// that stored the memory address of the first element of the array.
+/*
 int main (){
-    
+    int arr[5];
+    //printing array name
+    cout << arr << endl;
+    //printing address of first element
+    cout << &arr[0];
+    return 0;
 }
+*/
+
+//Access all the elements of an array using pointer to the first element.
+/*
+int main(){
+    int arr[] = {10, 20, 30, 40, 50};
+     // Define a pointer to first element
+    int* ptr = arr;
+    for (int i = 0; i < 5; i++)
+        cout << *(ptr + i)<< " ";
+        return 0;
+}
+*/
+
+// Arrays in Reverse order
+/*
+int main(){
+    int arr[] = {10, 20, 30, 40, 50};
+    int* ptr = arr;
+    cout<<"Array in reverse order ";
+    // take the pointer to the last element
+    ptr = arr + 4; //address of 4
+
+    for (int i = 0; i < 5; i++) {
+        cout << *ptr << " ";   // print the current element
+        ptr--;                 //move the pointer into previous element
+    }
+    return 0;
+}
+*/
+
